@@ -1,0 +1,7 @@
+total = 0                                   # initialising
+
+for i in range(1, 1000):                    # start from 1 with increments of 2
+  if (i % 3 == 0) or (i % 5 == 0):          # divisible by 3 or 5 with zero remainder
+    total = total + i                       # assignment
+
+print(total)
